@@ -1,9 +1,15 @@
-import Image from "next/image";
+import Footer from "@/components/home/Footer";
+import HeroSlider from "@/components/home/HeroSlider";
+import MenuCategories from "@/components/home/MenuCategories";
+import Navbar from "@/components/home/Navbar";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-
-    </div>
+    <main>
+      <Navbar />
+      <HeroSlider />
+      <MenuCategories />
+      <Footer />
+    </main>
   );
 }
