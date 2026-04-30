@@ -20,7 +20,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "milkshakes",
     title: "Milkshakes",
     subtitle: "Milkshake Çeşitleri",
-    heroImage: "/images/categories/milkshakes.webp",
+    heroImage: "/images/categories/milkshake.jpg",
     items: [
       {
         name: "Chocolate Milkshake",

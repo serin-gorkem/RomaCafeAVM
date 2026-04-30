@@ -14,11 +14,11 @@ const footerBadges = [
 export default function Footer() {
   return (
     <footer className="bg-white">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-10 px-5 py-16 md:flex-row md:gap-20 md:py-24">
+      <div className="mx-auto flex max-w-6xl items-center justify-center gap-10 px-5 py-16 md:flex-row md:gap-20 md:py-24">
         {footerBadges.map((badge) => (
           <div
             key={badge.src}
-            className="relative aspect-square w-full max-w-90 md:max-w-115"
+            className="relative aspect-square w-full max-w-50 md:max-w-115"
           >
             <Image
               src={badge.src}

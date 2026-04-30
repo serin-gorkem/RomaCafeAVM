@@ -28,11 +28,11 @@ export default function MenuCategoryPage({ page }: MenuCategoryPageProps) {
           <div className="absolute inset-0 bg-black/45" />
 
           <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center text-white">
-            <h1 className="text-4xl font-black uppercase tracking-tight md:text-6xl">
+            <h1 className="text-4xl font-black tracking-tight md:text-6xl">
               {page.title}
             </h1>
 
-            <p className="mt-4 text-2xl font-bold uppercase md:text-4xl">
+            <p className="mt-4 text-2xl font-bold md:text-4xl">
               ({page.subtitle})
             </p>
           </div>

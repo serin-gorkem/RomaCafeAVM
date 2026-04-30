@@ -4,7 +4,7 @@ export const menuCategories = [
     subtitle: "Milkshake Çeşitleri",
     slug: "milkshakes",
     href: "/milkshakes",
-    image: "/images/categories/milkshakes.webp",
+    image: "/images/categories/milkshake.jpg",
   },
   {
     title: "Frozens",
