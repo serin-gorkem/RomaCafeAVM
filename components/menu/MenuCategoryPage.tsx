@@ -95,28 +95,6 @@ export default function MenuCategoryPage({ page }: MenuCategoryPageProps) {
       <Navbar />
 
       <main className="min-h-screen bg-[#f5efe3] pt-20">
-        <section className="relative h-90 overflow-hidden bg-black md:h-115">
-          <Image
-            src={page.heroImage}
-            alt={`${page.title} - ${page.subtitle}`}
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-
-          <div className="absolute inset-0 bg-black/45" />
-
-          <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center text-white">
-            <h1 className="text-4xl font-black tracking-tight md:text-6xl">
-              {page.title}
-            </h1>
-
-            <p className="mt-4 text-2xl font-bold md:text-4xl">
-              ({page.subtitle})
-            </p>
-          </div>
-        </section>
 
         <section className="relative overflow-hidden px-5 py-10 md:py-16">
           <div className="absolute inset-0">

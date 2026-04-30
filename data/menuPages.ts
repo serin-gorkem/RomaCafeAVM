@@ -20,7 +20,6 @@ export type MenuPage = {
   slug: MenuCategorySlug;
   title: string;
   subtitle: string;
-  heroImage: string;
   blocks: MenuContentBlock[];
 };
 
@@ -29,7 +28,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "milkshakes",
     title: "Milkshakes",
     subtitle: "Milkshake Çeşitleri",
-    heroImage: "/images/categories/milkshake.jpg",
     blocks: [
       {
         id: "milkshakes-main",
@@ -93,7 +91,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "frozens",
     title: "Frozens",
     subtitle: "Frozen Çeşitleri",
-    heroImage: "/images/categories/frozens.webp",
     blocks: [
       {
         id: "frozens-main",
@@ -152,7 +149,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "soguk-kahveler",
     title: "Cold Coffees",
     subtitle: "Soğuk Kahveler",
-    heroImage: "/images/categories/cold-coffees.webp",
     blocks: [
       {
         id: "cold-coffees-classics",
@@ -236,7 +232,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "soguk-alternatifler",
     title: "Cold Alternatives",
     subtitle: "Soğuk Alternatifler",
-    heroImage: "/images/categories/cold-alternatives.webp",
     blocks: [
       {
         id: "cold-alternatives-main",
@@ -320,7 +315,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "matcha",
     title: "Matcha",
     subtitle: "Matcha",
-    heroImage: "/images/categories/matcha.webp",
     blocks: [
       {
         id: "matcha-main",
@@ -369,7 +363,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "sicak-kahveler",
     title: "Hot Coffees",
     subtitle: "Sıcak Kahveler",
-    heroImage: "/images/categories/hot-coffees.webp",
     blocks: [
       {
         id: "hot-coffees-espresso",
@@ -503,7 +496,6 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
     slug: "bitki-caylari",
     title: "Herbal Tea",
     subtitle: "Bitki Çayları",
-    heroImage: "/images/categories/herbal-tea.webp",
     blocks: [
       {
         id: "herbal-tea-main",
