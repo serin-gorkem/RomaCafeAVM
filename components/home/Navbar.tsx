@@ -5,43 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-const menuCategories = [
-  {
-    title: "Milkshakes",
-    subtitle: "Milkshake Çeşitleri",
-    href: "#milkshakes",
-  },
-  {
-    title: "Frozens",
-    subtitle: "Frozen Çeşitleri",
-    href: "#frozens",
-  },
-  {
-    title: "Cold Coffees",
-    subtitle: "Soğuk Kahveler",
-    href: "#cold-coffees",
-  },
-  {
-    title: "Cold Alternatives",
-    subtitle: "Soğuk Alternatifler",
-    href: "#cold-alternatives",
-  },
-  {
-    title: "Matcha",
-    subtitle: "Matcha",
-    href: "#matcha",
-  },
-  {
-    title: "Hot Coffees",
-    subtitle: "Sıcak Kahveler",
-    href: "#hot-coffees",
-  },
-  {
-    title: "Herbal Tea",
-    subtitle: "Bitki Çayları",
-    href: "#herbal-tea",
-  },
-];
+import { menuCategories } from "@/data/menuCategories";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="fixed left-0 top-0 z-50 w-full bg-white shadow-sm">
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center" onClick={closeMenu}>
           <Image
             src="/images/cafe-roma-logo.webp"
             alt="Cafe Roma"
@@ -64,22 +28,10 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex">
-          {menuCategories.slice(0, 5).map((category) => (
-            <a
-              key={category.href}
-              href={category.href}
-              className="text-sm font-medium uppercase tracking-[0.14em] text-neutral-900 transition hover:text-neutral-500"
-            >
-              {category.title}
-            </a>
-          ))}
-        </div>
-
         <button
           type="button"
           onClick={() => setIsOpen((current) => !current)}
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-neutral-200 text-neutral-950 md:hidden"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-neutral-200 text-neutral-950"
           aria-label={isOpen ? "Menüyü kapat" : "Menüyü aç"}
           aria-expanded={isOpen}
         >
@@ -88,7 +40,7 @@ export default function Navbar() {
       </nav>
 
       {isOpen && (
-        <div className="border-t border-neutral-200 bg-white md:hidden">
+        <div className="border-t border-neutral-200 bg-white">
           <div className="max-h-[calc(100svh-80px)] overflow-y-auto px-5 py-5">
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-neutral-400">
               Menu Categories
@@ -96,7 +48,7 @@ export default function Navbar() {
 
             <div className="divide-y divide-neutral-100">
               {menuCategories.map((category) => (
-                <a
+                <Link
                   key={category.href}
                   href={category.href}
                   onClick={closeMenu}
@@ -109,7 +61,7 @@ export default function Navbar() {
                   <span className="mt-1 block text-sm text-neutral-500">
                     {category.subtitle}
                   </span>
-                </a>
+                </Link>
               ))}
             </div>
           </div>

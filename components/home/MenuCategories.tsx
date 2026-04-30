@@ -1,54 +1,11 @@
 import Image from "next/image";
+import { menuCategories } from "@/data/menuCategories";
 
-const categories = [
-  {
-    title: "Milkshakes",
-    subtitle: "Milkshake Çeşitleri",
-    image: "/images/categories/milkshakes.webp",
-    href: "#milkshakes",
-  },
-  {
-    title: "Frozens",
-    subtitle: "Frozen Çeşitleri",
-    image: "/images/categories/frozens.webp",
-    href: "#frozens",
-  },
-  {
-    title: "Cold Coffees",
-    subtitle: "Soğuk Kahveler",
-    image: "/images/categories/cold-coffees.webp",
-    href: "#cold-coffees",
-  },
-  {
-    title: "Cold Alternatives",
-    subtitle: "Soğuk Alternatifler",
-    image: "/images/categories/cold-alternatives.webp",
-    href: "#cold-alternatives",
-  },
-  {
-    title: "Matcha",
-    subtitle: "Matcha",
-    image: "/images/categories/matcha.webp",
-    href: "#matcha",
-  },
-  {
-    title: "Hot Coffees",
-    subtitle: "Sıcak Kahveler",
-    image: "/images/categories/hot-coffees.webp",
-    href: "#hot-coffees",
-  },
-  {
-    title: "Herbal Tea",
-    subtitle: "Bitki Çayları",
-    image: "/images/categories/herbal-tea.webp",
-    href: "#herbal-tea",
-  },
-];
 
 function MenuIcon() {
   return (
-    <div className="group mx-auto mb-6 flex h-[118px] w-[118px] items-center justify-center rounded-full bg-neutral-50 transition duration-300 hover:bg-black">
-      <div className="flex h-[96px] w-[96px] items-center justify-center rounded-full border border-neutral-200 bg-[repeating-linear-gradient(45deg,#f5f5f5_0,#f5f5f5_2px,transparent_2px,transparent_10px)] transition duration-300 group-hover:border-black group-hover:bg-none">
+    <div className="group mx-auto mb-6 flex h-29.5 w-29.5 items-center justify-center rounded-full bg-neutral-50 transition duration-300 hover:bg-black">
+      <div className="flex h-24 w-24 items-center justify-center rounded-full border border-neutral-200 bg-[repeating-linear-gradient(45deg,#f5f5f5_0,#f5f5f5_2px,transparent_2px,transparent_10px)] transition duration-300 group-hover:border-black group-hover:bg-none">
         <svg
           viewBox="0 0 100 100"
           className="h-12 w-12 text-black transition duration-300 group-hover:text-white"
@@ -83,30 +40,30 @@ function MenuIcon() {
 
 export default function MenuCategories() {
   return (
-    <section className="relative overflow-hidden px-5 pb-20 pt-12 md:pb-28 md:pt-16">
-      <div className="absolute inset-0 grid grid-cols-3">
-        <div className="bg-[#4b8f3a]" />
-        <div className="bg-white" />
-        <div className="bg-[#d60024]" />
+    <section className="relative min-h-screen overflow-hidden px-5 pb-20 pt-12 md:pb-28 md:pt-16">
+      <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-[url('/images/caferoma-bg.webp')] bg-size-[100%_auto] bg-top bg-repeat-y lg:bg-[url('/images/caferoma-bg-yatay.webp')] lg:bg-cover lg:bg-center" />
+
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl text-center">
         <MenuIcon />
 
-        <p className="font-serif text-base uppercase tracking-normal text-black">
+        <p className="font-serif text-base uppercase tracking-normal text-white">
           MENU CATEGORIES
         </p>
 
-        <h2 className="mt-6 font-serif text-base uppercase tracking-normal text-black">
+        <h2 className="mt-6 font-serif text-base uppercase tracking-normal text-white">
           (MENÜ KATEGORİLERİ)
         </h2>
 
-        <div className="mt-16 grid gap-7 md:grid-cols-2">
-          {categories.map((category) => (
+        <div className="mt-16 grid gap-7 md:grid-cols-2 ">
+          {menuCategories.map((category) => (
             <a
               key={category.href}
               href={category.href}
-              className="group relative block h-[260px] overflow-hidden bg-black md:h-[320px]"
+              className="group relative block h-52.5 overflow-hidden bg-black md:h-80"
             >
               <Image
                 src={category.image}
@@ -116,19 +73,19 @@ export default function MenuCategories() {
                 className="object-cover transition duration-700 group-hover:scale-105"
               />
 
-              <div className="absolute inset-0 bg-black/15 transition duration-300 group-hover:bg-white/25" />
+              <div className="absolute inset-0 bg-black/35 transition duration-300 group-hover:bg-white/25" />
 
               <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center transition-transform duration-300 group-hover:-translate-y-6">
-                <span className="text-4xl font-black uppercase leading-none tracking-tight text-white [filter:drop-shadow(0_5px_5px_rgba(0,0,0,0.75))] md:text-6xl">
+                <span className="text-3xl font-black leading-none tracking-tight text-white filter-[drop-shadow(0_5px_5px_rgba(0,0,0,0.75))] md:text-3xl">
                   {category.title}
                 </span>
 
-                <span className="mt-3 text-3xl font-black uppercase leading-none tracking-tight text-white drop-shadow-lg md:text-5xl">
+                <span className="mt-3 text-2xl font-black leading-none tracking-tight text-white drop-shadow-lg md:text-2xl">
                   ({category.subtitle})
                 </span>
               </div>
 
-              <div className="absolute bottom-0 left-0 right-0 flex h-[72px] translate-y-full items-center justify-center bg-black/75 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+              <div className="absolute bottom-0 left-0 right-0 flex h-18 translate-y-full items-center justify-center bg-black/75 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                 <svg
                   viewBox="0 0 24 24"
                   className="h-8 w-8 text-white"
