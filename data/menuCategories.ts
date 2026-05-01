@@ -48,6 +48,29 @@ export const menuCategories = [
     href: "/bitki-caylari",
     image: "/images/categories/herbal-tea.webp",
   },
+  {
+    title: "Ice Creams",
+    subtitle: "Dondurmalar",
+    slug: "dondurmalar",
+    href: "/dondurmalar",
+    image: "/images/categories/ice-creams.webp",
+  },
+
+  {
+    title: "Ice Cream Desserts",
+    subtitle: "Dondurmalı Tatlılar",
+    slug: "dondurmali-tatlilar",
+    href: "/dondurmali-tatlilar",
+    image: "/images/categories/ice-cream-desserts.webp",
+  },
+
+  {
+    title: "Waffle",
+    subtitle: "Waffle",
+    slug: "waffle",
+    href: "/waffle",
+    image: "/images/categories/waffle.webp",
+  },
 ] as const;
 
 export type MenuCategorySlug = (typeof menuCategories)[number]["slug"];

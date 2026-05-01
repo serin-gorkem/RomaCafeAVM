@@ -535,4 +535,158 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
       },
     ],
   },
+  dondurmalar: {
+    slug: "dondurmalar",
+    title: "Ice Creams",
+    subtitle: "Dondurmalar",
+    blocks: [
+      {
+        id: "ice-creams-main",
+        title: "Ice Creams",
+        subtitle: "Dondurmalar",
+        image: "/images/menu-blocks/dondurmalar.webp",
+        imageAlt: "Dondurma çeşitleri temsili görsel",
+        imageSide: "right",
+        items: [
+          {
+            name: "Melon with Ice Cream",
+            description:
+              "Ice Cream in Melon / Taze meyveler eşliğinde kavun içinde Roma Dondurma",
+            price: "₺600",
+          },
+          {
+            name: "Roma Chef's Special",
+            description: "Roma Ustam Özel Karışık Dondurması",
+            price: "₺650",
+          },
+          {
+            name: "Venice Venedik",
+            description:
+              "Pistachio, Honey, Almond Chestnut, Chocolate Chips / Antep Fıstığı, Bal, Badem, Kestane, Parça Çikolata",
+            price: "₺350",
+          },
+          {
+            name: "Tropical",
+            description:
+              "Pineapple, Mango, Kiwi, Black Mulberry/ Ananas, Mango, Kivi, Karadut",
+            price: "₺350",
+          },
+          {
+            name: "Iceman",
+            description:
+              "Raisin, Welnut, Chesnut, Chocalate Chips / Sakız, Ceviz, Kestane, Parça Çikolata",
+            price: "₺350",
+          },
+          {
+            name: "Banana Split",
+            description: "Mixed Ice Cream, Banana / Karışık Dondurma, Muz",
+            price: "₺500",
+          },
+          {
+            name: "Ice Cream with Wafer Helva",
+            description:
+              "Vanilin, Chocalte, Coffee, Caramel /Vanilya, Çikolata, Kahve, Karamel",
+            price: "₺400",
+          },
+          {
+            name: "Denmark",
+            description: "Chocalate and Caramel /Çikolata ve Karamel",
+            price: "₺350",
+          },
+          {
+            name: "Hawaii",
+            description:
+              "Tutti Frutti, Pineapple, Strawberry, Banana/Karışık Meyve, Ananas, Çilek, Muz",
+            price: "₺350",
+          },
+        ],
+      },
+    ],
+  },
+
+  "dondurmali-tatlilar": {
+    slug: "dondurmali-tatlilar",
+    title: "Ice Cream Desserts",
+    subtitle: "Dondurmalı Tatlılar",
+    blocks: [
+      {
+        id: "ice-cream-desserts-main",
+        title: "Ice Cream Desserts",
+        subtitle: "Dondurmalı Tatlılar",
+        image: "/images/menu-blocks/dondurmali-tatlilar.webp",
+        imageAlt: "Dondurmalı tatlı çeşitleri temsili görsel",
+        imageSide: "left",
+        items: [
+          {
+            name: "Pineapple Cup / Ananaslı Kup",
+            description:
+              "Pineapple Ice Cream & Whipped Cream with Fresh Pineapple Cubes / Taze Ananas Küpleri Eşliğinde Ananaslı Dondurma ve Krem Şanti",
+            price: "₺500",
+          },
+          {
+            name: "Vegan Cup",
+            description:
+              "Vegan for scups of Ice Cream, Fresh Fruits  / Vegan 4 Top Dondurma, Taze Meyveler",
+            price: "₺500",
+          },
+          {
+            name: "Oreo Cup / Oreolu Kup",
+            description:
+              "Oreo biscuit, Chocolate Chips, Chocolate Ice Cream and Whipped Cream / Oreo bisküvi, Çikolata parçaları, Çikolatalı Dondurma ve Krem Şanti",
+            price: "₺500",
+          },
+          {
+            name: "Forest Fruit Cup / Orman Meyveli Kup",
+            description:
+              "Forest Fruit Ice Cream & Whipped Cream with Fresh Blueberry, Black Mulberry, Cherry, Strawberry / Taze yaban mersini, karadut, vişne, çilek eşliğinde orman meyveli dondurma ve krem şanti",
+            price: "₺500",
+          },
+          {
+            name: "Croquant Cup / Krokanlı Kup",
+            description:
+              "Crocan pieces, Pistachio Ice Cream, Walnut Ice Cream, Almond Ice Cream, Caramel Ice Cream & Whipped Cream / Krokan parçaları, Antep fıstıklı dondurma, cevizli dondurma, bademli dondurma, karamelli dondurma ve krem şanti",
+            price: "₺500",
+          },
+        ],
+      },
+    ],
+  },
+
+  waffle: {
+    slug: "waffle",
+    title: "Waffle",
+    subtitle: "Waffle",
+    blocks: [
+      {
+        id: "waffle-main",
+        title: "Waffle",
+        subtitle: "Waffle'larımız tereyağlıdır / Our Waffles are buttered",
+        image: "/images/menu-blocks/waffle.webp",
+        imageAlt: "Waffle çeşitleri temsili görsel",
+        imageSide: "right",
+        items: [
+          {
+            name: "Oreolu Waffle / Oreo Waffles",
+            description: "Oreo Biscuit and Nutella/ Oreo bisküvi ve Nutella",
+            price: "₺400",
+          },
+          {
+            name: "Meyveli Waffle / Fruits Waffle",
+            description: "Strawberry, Kiwi, Banana, Nutella / Çilek, Kivi, Muz, Nutella",
+            price: "₺400",
+          },
+          {
+            name: "Meyveli Dondurmalı Waffle / Fruit Ice Cream Waffles",
+            description: "Strawberry, Kiwi, Banana and Nutella / Çilek, Kivi, Muz ve Nutella",
+            price: "₺480",
+          },
+          {
+            name: "Orman Meyveli Waffle / Forest Fruit Waffles",
+            description: "Blueberry, Raspberry, Blackberry, Strawberry and Nutella /Yaban mersini, Ahududu, Karadut, Çilek ve Nutella",
+            price: "₺500",
+          },
+        ],
+      },
+    ],
+  },
 };
