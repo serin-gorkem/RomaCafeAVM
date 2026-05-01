@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Footer from "@/components/home/Footer";
-import Navbar from "@/components/home/Navbar";
-import type { MenuContentBlock, MenuItem, MenuPage } from "@/data/menuPages";
+import Footer from "../../components/home/Footer";
+import Navbar from "../../components/home/Navbar";
+import type { MenuContentBlock, MenuItem, MenuPage } from "../../data/menuPages";
 
 type MenuCategoryPageProps = {
   page: MenuPage;

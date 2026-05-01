@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-import { menuCategories } from "@/data/menuCategories";
+import { menuCategories } from "../../data/menuCategories";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

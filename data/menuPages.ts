@@ -62,7 +62,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "kahvalti-omelettes",
         title: "Omelettes",
         subtitle: "Omlet Çeşitleri",
-        image: "/images/menu-blocks/kahvalti-2.webp",
+        image: "/images/menu-blocks/kahvalti-2.png",
         imageAlt: "Omlet çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -96,7 +96,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "aperatifler-main",
         title: "Snacks",
         subtitle: "Aperatifler",
-        image: "/images/menu-blocks/aperatifler-1.webp",
+        image: "/images/menu-blocks/aperatifler-1.png",
         imageAlt:
           "Bira tabağı, nugget, sosis tava ve patates çeşitleri temsili görsel",
         imageSide: "left",
@@ -131,7 +131,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "aperatifler-specials",
         title: "Special Snacks",
         subtitle: "Özel Aperatifler",
-        image: "/images/menu-blocks/aperatifler-2.webp",
+        image: "/images/menu-blocks/aperatifler-2.png",
         imageAlt: "Quesadilla, çıtır tavuk ve sarımsaklı ekmek temsili görsel",
         imageSide: "right",
         items: [
@@ -170,7 +170,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "tostlar-main",
         title: "Classic Toasts",
         subtitle: "Klasik Tostlar",
-        image: "/images/menu-blocks/tostlar-1.webp",
+        image: "/images/menu-blocks/tostlar-1.png",
         imageAlt: "Klasik tost çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -206,7 +206,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "tostlar-specials",
         title: "Special Toasts",
         subtitle: "Özel Tostlar",
-        image: "/images/menu-blocks/tostlar-2.webp",
+        image: "/images/menu-blocks/tostlar-2.png",
         imageAlt: "Hawaii tost temsili görsel",
         imageSide: "left",
         items: [
@@ -230,7 +230,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "club-sandvicler-main",
         title: "Club Sandwiches",
         subtitle: "Club Sandviçler",
-        image: "/images/menu-blocks/club-sandvicler.webp",
+        image: "/images/menu-blocks/club-sandvicler.png",
         imageAlt: "Club sandviç çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -272,7 +272,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "burgerler-main",
         title: "Burgers",
         subtitle: "Hamburger Menü",
-        image: "/images/menu-blocks/burgerler-1.webp",
+        image: "/images/menu-blocks/burgerler-1.png",
         imageAlt: "Klasik burger çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -312,7 +312,7 @@ export const menuPages: Record<MenuCategorySlug, MenuPage> = {
         id: "burgerler-specials",
         title: "Special Burgers",
         subtitle: "Özel Burgerler",
-        image: "/images/menu-blocks/burgerler-2.webp",
+        image: "/images/menu-blocks/burgerler-2.png",
         imageAlt: "Roma özel burgerleri temsili görsel",
         imageSide: "left",
         items: [
@@ -342,7 +342,7 @@ salatalar: {
       id: "salatalar-main",
       title: "Salads",
       subtitle: "Salatalar",
-      image: "/images/menu-blocks/salatalar-1.webp",
+      image: "/images/menu-blocks/salatalar-1.png",
       imageAlt: "Akdeniz, ton balıklı, hellim, Sezar ve bonfileli salata temsili görsel",
       imageSide: "left",
       items: [
@@ -382,7 +382,7 @@ salatalar: {
       id: "salatalar-specials",
       title: "Special Salads",
       subtitle: "Özel Salatalar",
-      image: "/images/menu-blocks/salatalar-2.webp",
+      image: "/images/menu-blocks/salatalar-2.png",
       imageAlt: "Misket mozzarellalı roka salatası ve Ege salatası temsili görsel",
       imageSide: "right",
       items: [
@@ -412,7 +412,7 @@ pizzalar: {
       id: "pizzalar-main",
       title: "Classic Pizzas",
       subtitle: "Klasik Pizzalar",
-      image: "/images/menu-blocks/pizzalar-1.webp",
+      image: "/images/menu-blocks/pizzalar-1.png",
       imageAlt: "Margarita, Bolonez, Hawaii, ton balıklı ve mantarlı pizza temsili görsel",
       imageSide: "right",
       items: [
@@ -452,7 +452,7 @@ pizzalar: {
       id: "pizzalar-specials",
       title: "Special Pizzas",
       subtitle: "Özel Pizzalar",
-      image: "/images/menu-blocks/pizzalar-2.webp",
+      image: "/images/menu-blocks/pizzalar-2.png",
       imageAlt: "Pepperoni, Quattro Formaggi, Hot Chili, Alaturka, Indian ve Tikka Masala pizza temsili görsel",
       imageSide: "left",
       items: [
@@ -506,7 +506,7 @@ makarnalar: {
       id: "makarnalar-main",
       title: "Pastas",
       subtitle: "Makarnalar",
-      image: "/images/menu-blocks/makarnalar-1.webp",
+      image: "/images/menu-blocks/makarnalar-1.png",
       imageAlt: "Pesto, tavuklu, bonfileli, bolonez ve napoliten makarna temsili görsel",
       imageSide: "left",
       items: [
@@ -546,7 +546,7 @@ makarnalar: {
       id: "makarnalar-specials",
       title: "Special Pastas",
       subtitle: "Özel Makarnalar",
-      image: "/images/menu-blocks/makarnalar-2.webp",
+      image: "/images/menu-blocks/makarnalar-2.png",
       imageAlt: "Vejetaryen, sade, arrabbiata ve carbonara makarna temsili görsel",
       imageSide: "right",
       items: [
@@ -588,7 +588,7 @@ izgaralar: {
       id: "izgaralar-main",
       title: "Grills",
       subtitle: "Izgaralar",
-      image: "/images/menu-blocks/izgaralar-1.webp",
+      image: "/images/menu-blocks/izgaralar-1.png",
       imageAlt: "Kasap köfte, ızgara tavuk, soslu tavuk ve kuzu pirzola temsili görsel",
       imageSide: "right",
       items: [
@@ -628,7 +628,7 @@ izgaralar: {
       id: "izgaralar-steaks",
       title: "Steaks",
       subtitle: "Steak Çeşitleri",
-      image: "/images/menu-blocks/izgaralar-2.webp",
+      image: "/images/menu-blocks/izgaralar-2.png",
       imageAlt: "Naturel steak, pepper steak, mantar soslu steak, Hawaii steak ve karışık steak tabağı temsili görsel",
       imageSide: "left",
       items: [
@@ -676,7 +676,7 @@ izgaralar: {
       id: "tava-yemekleri-main",
       title: "Pan-Fried Dishes",
       subtitle: "Tava Yemekleri",
-      image: "/images/menu-blocks/tava-yemekleri-1.webp",
+      image: "/images/menu-blocks/tava-yemekleri-1.png",
       imageAlt: "Fajita, şinitzel, Meksikan tavuk ve Meksikan steak temsili görsel",
       imageSide: "left",
       items: [
@@ -716,7 +716,7 @@ izgaralar: {
       id: "tava-yemekleri-specials",
       title: "Special Chicken Dishes",
       subtitle: "Özel Tavuk Yemekleri",
-      image: "/images/menu-blocks/tava-yemekleri-2.webp",
+      image: "/images/menu-blocks/tava-yemekleri-2.png",
       imageAlt: "Köri soslu tavuk, sweet chili tavuk ve sweet and sour tavuk temsili görsel",
       imageSide: "right",
       items: [
@@ -752,7 +752,7 @@ waffle: {
       id: "waffle-main",
       title: "Classic Waffles",
       subtitle: "Klasik Waffle Çeşitleri",
-      image: "/images/menu-blocks/waffle-1.webp",
+      image: "/images/menu-blocks/waffle-1.png",
       imageAlt: "Meyveli, dondurmalı, Nutellalı ve sade waffle temsili görsel",
       imageSide: "right",
       items: [
@@ -782,7 +782,7 @@ waffle: {
       id: "waffle-specials",
       title: "Special Waffles",
       subtitle: "Özel Waffle Çeşitleri",
-      image: "/images/menu-blocks/waffle-2.webp",
+      image: "/images/menu-blocks/waffle-2.png",
       imageAlt: "Dubai waffle, beyaz çikolatalı waffle ve meyve tabağı temsili görsel",
       imageSide: "left",
       items: [
@@ -820,7 +820,7 @@ krepler: {
       id: "krepler-main",
       title: "Crepes",
       subtitle: "Krep Çeşitleri",
-      image: "/images/menu-blocks/krepler-1.webp",
+      image: "/images/menu-blocks/krepler-1.png",
       imageAlt: "Ballı, dondurmalı, muzlu, Nutellalı ve sade krep temsili görsel",
       imageSide: "left",
       items: [
@@ -850,7 +850,7 @@ krepler: {
       id: "krepler-specials",
       title: "Special Crepes & Pancakes",
       subtitle: "Özel Krepler ve Pancake",
-      image: "/images/menu-blocks/krepler-2.webp",
+      image: "/images/menu-blocks/krepler-2.png",
       imageAlt: "Muzlu çikolatalı krep, Nutellalı pancake ve pancake tabağı temsili görsel",
       imageSide: "right",
       items: [
@@ -882,7 +882,7 @@ dondurmalar: {
       id: "dondurmalar-main",
       title: "Ice Creams",
       subtitle: "Dondurmalar",
-      image: "/images/menu-blocks/dondurmalar-1.webp",
+      image: "/images/menu-blocks/dondurmalar-1.png",
       imageAlt:
         "Kavun içi dondurma, kızarmış dondurma, Roma şef spesiyal, Venedik ve tropikal dondurma temsili görsel",
       imageSide: "right",
@@ -919,7 +919,7 @@ dondurmalar: {
       id: "dondurmalar-specials",
       title: "Special Ice Creams",
       subtitle: "Özel Dondurmalar",
-      image: "/images/menu-blocks/dondurmalar-2.webp",
+      image: "/images/menu-blocks/dondurmalar-2.png",
       imageAlt:
         "Iceman, banana split, gofret helvalı dondurma, Danimarka, Hawaii ve ekstra top dondurma temsili görsel",
       imageSide: "left",
@@ -972,7 +972,7 @@ dondurmalar: {
       id: "sicak-icecekler-espresso-classics",
       title: "Espresso Classics",
       subtitle: "Espresso Klasikleri",
-      image: "/images/menu-blocks/sicak-icecekler-1.webp",
+      image: "/images/menu-blocks/sicak-icecekler-1.png",
       imageAlt: "Espresso, double espresso, ristretto, macchiato, con panna ve americano temsili görsel",
       imageSide: "left",
       items: [
@@ -1010,7 +1010,7 @@ dondurmalar: {
       id: "sicak-icecekler-milk-coffees",
       title: "Milk Coffees",
       subtitle: "Sütlü Kahveler",
-      image: "/images/menu-blocks/sicak-icecekler-2.webp",
+      image: "/images/menu-blocks/sicak-icecekler-2.png",
       imageAlt: "Cappuccino, latte macchiato, flat white, cortado ve caramel macchiato temsili görsel",
       imageSide: "right",
       items: [
@@ -1040,7 +1040,7 @@ dondurmalar: {
       id: "sicak-icecekler-chocolate-specials",
       title: "Chocolate & Specials",
       subtitle: "Çikolatalı ve Özel İçecekler",
-      image: "/images/menu-blocks/sicak-icecekler-3.webp",
+      image: "/images/menu-blocks/sicak-icecekler-3.png",
       imageAlt: "Mocha, white chocolate mocha, sıcak çikolata ve affogato temsili görsel",
       imageSide: "left",
       items: [
@@ -1066,7 +1066,7 @@ dondurmalar: {
       id: "sicak-icecekler-traditional",
       title: "Traditional Hot Drinks",
       subtitle: "Geleneksel Sıcak İçecekler",
-      image: "/images/menu-blocks/sicak-icecekler-4.webp",
+      image: "/images/menu-blocks/sicak-icecekler-4.png",
       imageAlt: "Türk kahvesi, duble Türk kahvesi, çay, bitki çayı ve sahlep temsili görsel",
       imageSide: "right",
       items: [
@@ -1096,7 +1096,7 @@ dondurmalar: {
       id: "sicak-icecekler-filter-instant",
       title: "Filter & Instant Coffees",
       subtitle: "Filtre ve Hazır Kahveler",
-      image: "/images/menu-blocks/sicak-icecekler-5.webp",
+      image: "/images/menu-blocks/sicak-icecekler-5.png",
       imageAlt: "Filtre kahve, sade Nescafe ve sütlü Nescafe temsili görsel",
       imageSide: "left",
       items: [
@@ -1126,7 +1126,7 @@ dondurmalar: {
         id: "soguk-kahveler-main",
         title: "Iced Coffees",
         subtitle: "Soğuk Kahveler",
-        image: "/images/menu-blocks/soguk-kahveler-1.webp",
+        image: "/images/menu-blocks/soguk-kahveler-1.png",
         imageAlt: "Soğuk kahve çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -1160,7 +1160,7 @@ dondurmalar: {
         id: "soguk-kahveler-frappe",
         title: "Frappe & Chocolate",
         subtitle: "Frappe ve Soğuk Çikolata",
-        image: "/images/menu-blocks/soguk-kahveler-2.webp",
+        image: "/images/menu-blocks/soguk-kahveler-2.png",
         imageAlt: "Frappe ve soğuk çikolata temsili görsel",
         imageSide: "left",
         items: [
@@ -1190,7 +1190,7 @@ dondurmalar: {
         id: "soguk-icecekler-specials",
         title: "Special Cold Drinks",
         subtitle: "Özel Soğuk İçecekler",
-        image: "/images/menu-blocks/soguk-icecekler-1.webp",
+        image: "/images/menu-blocks/soguk-icecekler-1.png",
         imageAlt: "Özel soğuk içecekler temsili görsel",
         imageSide: "left",
         items: [
@@ -1220,7 +1220,7 @@ dondurmalar: {
         id: "soguk-icecekler-soft-drinks",
         title: "Soft Drinks",
         subtitle: "Gazlı ve Hazır İçecekler",
-        image: "/images/menu-blocks/soguk-icecekler-2.webp",
+        image: "/images/menu-blocks/soguk-icecekler-2.png",
         imageAlt: "Gazlı ve hazır içecekler temsili görsel",
         imageSide: "right",
         items: [
@@ -1250,7 +1250,7 @@ dondurmalar: {
         id: "soguk-icecekler-basics",
         title: "Basic Drinks",
         subtitle: "Temel İçecekler",
-        image: "/images/menu-blocks/soguk-icecekler-3.webp",
+        image: "/images/menu-blocks/soguk-icecekler-3.png",
         imageAlt: "Temel soğuk içecekler temsili görsel",
         imageSide: "left",
         items: [
@@ -1284,7 +1284,7 @@ dondurmalar: {
         id: "milkshakes-classics",
         title: "Classic Milkshakes",
         subtitle: "Klasik Milkshake Çeşitleri",
-        image: "/images/menu-blocks/milkshakes-1.webp",
+        image: "/images/menu-blocks/milkshakes-1.png",
         imageAlt: "Klasik milkshake çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -1310,7 +1310,7 @@ dondurmalar: {
         id: "milkshakes-fruit",
         title: "Fruit Milkshakes",
         subtitle: "Meyveli Milkshake Çeşitleri",
-        image: "/images/menu-blocks/milkshakes-2.webp",
+        image: "/images/menu-blocks/milkshakes-2.png",
         imageAlt: "Meyveli milkshake çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -1355,7 +1355,7 @@ dondurmalar: {
         id: "smoothies-main",
         title: "Smoothies",
         subtitle: "Smoothie Çeşitleri",
-        image: "/images/menu-blocks/smoothies-1.webp",
+        image: "/images/menu-blocks/smoothies-1.png",
         imageAlt: "Smoothie çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -1385,7 +1385,7 @@ dondurmalar: {
         id: "smoothies-fruit",
         title: "Fruit Smoothies",
         subtitle: "Meyveli Smoothie Çeşitleri",
-        image: "/images/menu-blocks/smoothies-2.webp",
+        image: "/images/menu-blocks/smoothies-2.png",
         imageAlt: "Meyveli smoothie çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -1419,7 +1419,7 @@ dondurmalar: {
         id: "frozens-main",
         title: "Frozens",
         subtitle: "Frozen Çeşitleri",
-        image: "/images/menu-blocks/frozens-1.webp",
+        image: "/images/menu-blocks/frozens-1.png",
         imageAlt: "Frozen çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -1445,7 +1445,7 @@ dondurmalar: {
         id: "frozens-fruit",
         title: "Fruit Frozens",
         subtitle: "Meyveli Frozen Çeşitleri",
-        image: "/images/menu-blocks/frozens-2.webp",
+        image: "/images/menu-blocks/frozens-2.png",
         imageAlt: "Meyveli frozen çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -1479,7 +1479,7 @@ dondurmalar: {
         id: "meyve-sulari-main",
         title: "Fresh Juices",
         subtitle: "Taze Meyve Suları",
-        image: "/images/menu-blocks/meyve-sulari.webp",
+        image: "/images/menu-blocks/meyve-sulari.png",
         imageAlt: "Taze meyve suyu çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -1513,7 +1513,7 @@ dondurmalar: {
         id: "yerli-alkollu-icecekler-main",
         title: "Local Drinks",
         subtitle: "Yerli İçkiler",
-        image: "/images/menu-blocks/yerli-alkollu-icecekler.webp",
+        image: "/images/menu-blocks/yerli-alkollu-icecekler.png",
         imageAlt: "Yerli içkiler temsili görsel",
         imageSide: "right",
         items: [
@@ -1550,7 +1550,7 @@ dondurmalar: {
         id: "yabanci-alkollu-icecekler-whiskey-liqueur",
         title: "Whiskey & Liqueur",
         subtitle: "Viski ve Likör",
-        image: "/images/menu-blocks/yabanci-alkollu-icecekler-1.webp",
+        image: "/images/menu-blocks/yabanci-alkollu-icecekler-1.png",
         imageAlt: "Yabancı viski ve likör çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -1585,7 +1585,7 @@ dondurmalar: {
         id: "yabanci-alkollu-icecekler-vodka-rum",
         title: "Vodka & Rum",
         subtitle: "Votka ve Rom",
-        image: "/images/menu-blocks/yabanci-alkollu-icecekler-2.webp",
+        image: "/images/menu-blocks/yabanci-alkollu-icecekler-2.png",
         imageAlt: "Votka ve rom çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -1620,7 +1620,7 @@ dondurmalar: {
         id: "yabanci-alkollu-icecekler-gin-vermouth-tequila",
         title: "Gin, Vermouth & Tequila",
         subtitle: "Cin, Vermut ve Tekila",
-        image: "/images/menu-blocks/yabanci-alkollu-icecekler-3.webp",
+        image: "/images/menu-blocks/yabanci-alkollu-icecekler-3.png",
         imageAlt: "Cin, vermut ve tekila çeşitleri temsili görsel",
         imageSide: "left",
         items: [
@@ -1652,7 +1652,7 @@ dondurmalar: {
         id: "kokteyller-classics",
         title: "Classic Cocktails",
         subtitle: "Klasik Kokteyller",
-        image: "/images/menu-blocks/kokteyller-1.webp",
+        image: "/images/menu-blocks/kokteyller-1.png",
         imageAlt: "Klasik kokteyller temsili görsel",
         imageSide: "right",
         items: [
@@ -1690,7 +1690,7 @@ dondurmalar: {
         id: "kokteyller-tropical-fresh",
         title: "Tropical & Fresh Cocktails",
         subtitle: "Tropikal ve Ferah Kokteyller",
-        image: "/images/menu-blocks/kokteyller-2.webp",
+        image: "/images/menu-blocks/kokteyller-2.png",
         imageAlt: "Tropikal kokteyller temsili görsel",
         imageSide: "left",
         items: [
@@ -1728,7 +1728,7 @@ dondurmalar: {
         id: "kokteyller-signature-coffee",
         title: "Signature & Coffee Cocktails",
         subtitle: "İmza ve Kahveli Kokteyller",
-        image: "/images/menu-blocks/kokteyller-3.webp",
+        image: "/images/menu-blocks/kokteyller-3.png",
         imageAlt: "İmza ve kahveli kokteyller temsili görsel",
         imageSide: "right",
         items: [
@@ -1759,7 +1759,7 @@ dondurmalar: {
         id: "kokteyller-wine-beer-rum",
         title: "Wine, Beer & Rum Based",
         subtitle: "Şarap, Bira ve Rom Bazlı Kokteyller",
-        image: "/images/menu-blocks/kokteyller-4.webp",
+        image: "/images/menu-blocks/kokteyller-4.png",
         imageAlt: "Şarap, bira ve rom bazlı kokteyller temsili görsel",
         imageSide: "left",
         items: [
@@ -1804,7 +1804,7 @@ dondurmalar: {
         id: "biralar-local",
         title: "Efes & Local Beers",
         subtitle: "Efes ve Yerli Biralar",
-        image: "/images/menu-blocks/biralar-1.webp",
+        image: "/images/menu-blocks/biralar-1.png",
         imageAlt: "Efes ve yerli bira çeşitleri temsili görsel",
         imageSide: "right",
         items: [
@@ -1838,7 +1838,7 @@ dondurmalar: {
         id: "biralar-premium",
         title: "Imported & Premium Beers",
         subtitle: "İthal ve Premium Biralar",
-        image: "/images/menu-blocks/biralar-2.webp",
+        image: "/images/menu-blocks/biralar-2.png",
         imageAlt: "İthal ve premium bira çeşitleri temsili görsel",
         imageSide: "left",
         items: [

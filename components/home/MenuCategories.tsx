@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { menuCategories } from "@/data/menuCategories";
+import { menuCategories } from "../../data/menuCategories";
 
 
 function MenuIcon() {

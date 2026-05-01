@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
-import MenuCategoryPage from "@/components/menu/MenuCategoryPage";
-import { menuCategories } from "@/data/menuCategories";
-import { menuPages } from "@/data/menuPages";
+import MenuCategoryPage from "../../../components/menu/MenuCategoryPage";
+import { menuCategories } from "../../../data/menuCategories";
+import { menuPages } from "../../../data/menuPages";
 
 type PageProps = {
   params: Promise<{
