@@ -42,7 +42,7 @@ export default function MenuCategories() {
   return (
     <section className="relative min-h-screen overflow-hidden px-5 pb-20 pt-12 md:pb-28 md:pt-16">
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[url('/images/caferoma-bg.webp')] bg-size-[100%_auto] bg-top bg-repeat-y lg:bg-[url('/images/caferoma-bg-yatay.webp')] lg:bg-cover lg:bg-center" />
+        <div className="absolute inset-0 bg-[url('/images/caferoma-bg.webp')] bg-size-[100%_auto] bg-top bg-repeat-y lg:bg-[url('/images/caferoma-bg-yatay.webp')] " />
 
         <div className="absolute inset-0 bg-black/30" />
       </div>
