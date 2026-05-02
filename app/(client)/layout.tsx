@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { LanguageProvider } from "../../components/i18n/LanguageProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,17 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-
   title: "Cafe Roma Menu",
 
   description: "Cafe Roma QR Menu",
 
   other: {
-
     google: "notranslate",
-
   },
-
 };
 
 export default function RootLayout({
@@ -37,7 +34,9 @@ export default function RootLayout({
       translate="no"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased notranslate`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }

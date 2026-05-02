@@ -1,6 +1,13 @@
-import Image from "next/image";
-import { menuCategories } from "../../data/menuCategories";
+"use client";
 
+import Image from "next/image";
+
+import {
+  UI_TEXT,
+  getLocalizedText,
+} from "../../data/i18n";
+import { menuCategories } from "../../data/menuCategories";
+import { useLanguage } from "../i18n/LanguageProvider";
 
 function MenuIcon() {
   return (
@@ -39,6 +46,11 @@ function MenuIcon() {
 }
 
 export default function MenuCategories() {
+  const { language } = useLanguage();
+
+  const t = (text: keyof typeof UI_TEXT) =>
+    getLocalizedText(UI_TEXT[text], language);
+
   return (
     <section className="relative min-h-screen overflow-hidden px-5 pb-20 pt-12 md:pb-28 md:pt-16">
       <div className="absolute inset-0">
@@ -51,12 +63,8 @@ export default function MenuCategories() {
         <MenuIcon />
 
         <p className="font-serif text-base uppercase tracking-normal text-white">
-          MENU CATEGORIES
+          {t("menuCategories")}
         </p>
-
-        <h2 className="mt-6 font-serif text-base uppercase tracking-normal text-white">
-          (MENÜ KATEGORİLERİ)
-        </h2>
 
         <div className="mt-16 grid gap-7 md:grid-cols-2 ">
           {menuCategories.map((category) => (
@@ -67,7 +75,7 @@ export default function MenuCategories() {
             >
               <Image
                 src={category.image}
-                alt={`${category.title} - ${category.subtitle}`}
+                alt={category.title[language]}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
                 className="object-cover transition duration-700 group-hover:scale-105"
@@ -77,11 +85,7 @@ export default function MenuCategories() {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center transition-transform duration-300 group-hover:-translate-y-6">
                 <span className="text-3xl font-black leading-none tracking-tight text-white filter-[drop-shadow(0_5px_5px_rgba(0,0,0,0.75))] md:text-3xl">
-                  {category.title}
-                </span>
-
-                <span className="mt-3 text-2xl font-black leading-none tracking-tight text-white drop-shadow-lg md:text-2xl">
-                  ({category.subtitle})
+                  {category.title[language]}
                 </span>
               </div>
 
