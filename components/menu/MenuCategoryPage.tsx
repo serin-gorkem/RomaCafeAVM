@@ -134,7 +134,7 @@ export default function MenuCategoryPage({ page }: MenuCategoryPageProps) {
       <main className="min-h-screen bg-[#f5efe3] pt-20">
         <section className="relative overflow-hidden px-5 py-10 md:py-16">
           <div className="absolute inset-0">
-            <div className="absolute inset-0 bg-[url('/images/caferoma-bg.webp')] bg-[length:100%_auto] bg-top bg-repeat-y lg:bg-[url('/images/caferoma-bg-yatay.webp')]" />
+            <div className="absolute inset-0 bg-[url('/images/caferoma-bg.webp')] bg-size-[100%_auto] bg-top bg-repeat-y lg:bg-[url('/images/caferoma-bg-yatay.webp')]" />
             <div className="absolute inset-0 bg-black/30" />
           </div>
 

@@ -810,7 +810,7 @@ pizzalar: {
             en: "Pizza sauce, mushroom, mozzarella cheese and thyme",
             tr: "Pizza sosu, mantar, mozzarella peyniri, kekik",
           },
-          price: "₺530",
+          price: "₺590",
         },
       ],
     },
@@ -895,7 +895,7 @@ pizzalar: {
             en: "Creamy curry spiced chicken pieces, mozzarella cheese, red onion and pizza sauce",
             tr: "Kremalı köri baharatlı tavuk parçaları, mozzarella peyniri, mor soğan, pizza sosu",
           },
-          price: "₺650",
+          price: "₺690",
         },
       ],
     },
@@ -1252,7 +1252,7 @@ izgaralar: {
             en: "150g beef tenderloin, salsa, guacamole, cheddar sauce and tortilla wrap",
             tr: "150 gr dana bonfile, salsa, guacamole, cheddar sos, tortilla lavaşı",
           },
-          price: "₺1.250",
+          price: "₺1.290",
         },
         {
           name: {
@@ -1787,7 +1787,7 @@ dondurmalar: {
             en: "Espresso",
             tr: "Espresso",
           },
-          price: "₺190",
+          price: "₺180",
         },
         {
           name: {
@@ -1963,7 +1963,7 @@ dondurmalar: {
             en: "Double Turkish Coffee",
             tr: "Duble Türk Kahvesi",
           },
-          price: "₺240",
+          price: "₺210",
         },
         {
           name: {
@@ -2179,7 +2179,7 @@ dondurmalar: {
             en: "Homemade Lemonade",
             tr: "Ev Yapımı Limonata",
           },
-          price: "₺150",
+          price: "₺190",
         },
         {
           name: {
